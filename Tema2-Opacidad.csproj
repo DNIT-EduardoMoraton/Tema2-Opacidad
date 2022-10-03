@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>assets\Gallery_icon-icons.com_54177.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -98,6 +101,9 @@
     <Resource Include="assets\episodioIV.jpg" />
     <Resource Include="assets\episodioV.jpg" />
     <Resource Include="assets\episodioVI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\Gallery_icon-icons.com_54177.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

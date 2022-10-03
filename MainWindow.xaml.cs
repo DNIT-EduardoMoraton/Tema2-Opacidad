@@ -28,12 +28,12 @@ namespace Tema2_Opacidad
         private void imStarWarsImage_MouseEnter(object sender, MouseEventArgs e)
         {
             Image im = (Image)sender;
-            im.Opacity = 0.5;      
+            im.Opacity = 1;      
         }
         private void imStarWarsImage_MouseLeave(Object sender, MouseEventArgs e)
         {
             Image im = (Image)sender;
-            im.Opacity = 1;
+            im.Opacity = 0.5;
         }
     }
 }

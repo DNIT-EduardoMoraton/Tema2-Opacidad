@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema2_Opacidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Opacidad Imagenes" Height="450" Width="800" Icon="assets/Gallery_icon-icons.com_54177.ico">
     <Grid>
-        <Image x:Name="im1Image" HorizontalAlignment="Left" Height="240" Margin="80,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioIV.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave"/>
-        <Image x:Name="im2Image" HorizontalAlignment="Left" Height="240" Margin="560,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioVI.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave"/>
-        <Image x:Name="im3Image" HorizontalAlignment="Left" Height="240" Margin="325,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioV.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave"/>
+        <Image x:Name="im1Image" HorizontalAlignment="Left" Height="240" Margin="80,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioIV.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave" Opacity="0.5"/>
+        <Image x:Name="im2Image" HorizontalAlignment="Left" Height="240" Margin="560,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioVI.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave" Opacity="0.5"/>
+        <Image x:Name="im3Image" HorizontalAlignment="Left" Height="240" Margin="325,80,0,0" VerticalAlignment="Top" Width="160" Source="assets/episodioV.jpg" MouseEnter="imStarWarsImage_MouseEnter" MouseLeave="imStarWarsImage_MouseLeave" Opacity="0.5"/>
 
     </Grid>
 </Window>
